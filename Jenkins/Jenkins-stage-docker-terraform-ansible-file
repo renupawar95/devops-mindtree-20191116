@@ -1,9 +1,8 @@
 node {
     
 stage('Git CheckOut') {    
-git url: 'https://github.com/amitvashisttech/devops-mindtree-20191115.git'
+git url: 'https://github.com/renupawar95/devops-mindtree-20191116.git'
 }
-
 
 def project_path = "atmosphere/spring-boot-samples/spring-boot-sample-atmosphere"
 dir(project_path) {
