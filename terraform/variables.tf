@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "newec"
+  default = "aws-terra-demo"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/newec.pem"
+  default = "/var/lib/jenkins/aws-terra-demo.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-04c5365e7f62b736e"
+  default = "sg-0eb0b0fce40b43837"
 }
